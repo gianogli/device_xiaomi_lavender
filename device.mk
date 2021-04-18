@@ -30,11 +30,11 @@ DEVICE_PATH := device/xiaomi/lavender
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
+	$(DEVICE_PATH)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-	 $(DEVICE_PATH)/overlay
+	$(DEVICE_PATH)/overlay
 
 # APEX
 ENABLE_APEX := true
@@ -81,7 +81,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_lavender
+	librecovery_updater_lavender
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
