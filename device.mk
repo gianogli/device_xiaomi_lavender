@@ -98,6 +98,10 @@ PRODUCT_PACKAGES += \
 	android.hardware.vibrator@1.0-impl \
 	android.hardware.vibrator@1.0-service
 
+# Wifi
+PRODUCT_PACKAGES += \
+    LavenderWifiOverlay
+
 # Vendor files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
