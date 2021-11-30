@@ -51,6 +51,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-06-01
+BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Inherit the proprietary files
 include vendor/xiaomi/lavender/BoardConfigVendor.mk
