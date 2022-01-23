@@ -30,12 +30,16 @@
         <value>1401600</value>
         <value>1747200</value>
         <value>1958400</value>
+        <value>2150400</value>
+        <value>2200800</value>
     </array>
     <array name="cpu.core_power.cluster1">
         <value>75</value>
         <value>105</value>
         <value>166</value>
         <value>205</value>
+        <value>252</value>
+        <value>304</value>
     </array>
     <item name="cpu.suspend">3.9</item>
     <item name="cpu.idle">2</item>
